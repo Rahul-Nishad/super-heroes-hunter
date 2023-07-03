@@ -1,7 +1,9 @@
 body{
-	background-image: url('images/backMarvel3.jpg');
+	background-image: url('images/marvels.png');
 	background-size: cover;
+	background-blend-mode: soft-light;
 	background-repeat: no-repeat;
+	background-color: rgb(53, 51, 51);
 }
 
 main{
