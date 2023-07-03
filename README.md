@@ -10,7 +10,7 @@ We can search more heroes from search feild and can be check details
 Its hosted on github with this link :  https://rahul-nishad.github.io/super-heroes-hunter/
 
 #Technology
-FrontEnd : (FrontEnd : HTML , CSS , Vanilla Js )
+FrontEnd : (HTML , CSS , Vanilla Js )
 
 
 Super heroes hunter :
