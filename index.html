@@ -10,15 +10,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-	<!-- <a href="https://www.fontspace.com/category/marvel"><img src="https://see.fontimg.com/api/renderfont4/8MV8M/eyJyIjoiZnMiLCJoIjo0OSwidyI6MTAwMCwiZnMiOjQ5LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Z2xpdGNo/thunderbolt-regular.png" alt="Marvel fonts"></a> -->
-	<title>Super Hero Hunter</title>
+	<title>Superhero Hunter</title>
 </head>
 <body>
 	<header class="">
-		<nav class="navbar navbar-dark bg-dark justify-content-start">
+		<nav class="navbar navbar-dark bg-dark justify-content-end">
 			<div class="d-flex justify-content-start ms-2">
-				<a class="navbar-brand logo text" href="#">Super Heroes</a>
-				<ul class="navbar-nav flex-row ">
+				<a class="navbar-brand logo text justify-content-start" href="#">Super Heroes</a>
+				<ul class="navbar-nav flex-row justify-content-end">
 			        <li class="nav-item">
 			        	<a class="nav-link active mx-2" id="homeTab" aria-current="page" href="#">Home</a>
 			        </li>
@@ -29,15 +28,15 @@
 			</div>		    
 		</nav>
 	</header>
-
+<div class="container-box">
 	<div class="content text-center text-white ">
-		<h1 class="text-secondary"><i>Super Heroes <br>Hunter</i></h1>
+		<h1 class="text-secondary"> <i> Super Heroes <br>Hunter</i></h1>
 		<h2>Your one spot to get the data of all the superheroes and villains n the Universe!</h2>
 
 		<form class="d-flex justify-content-between ms-auto me-2 search-container position-relative">
 		  	<input class="form-control me-2" id="search" type="search"
 		  	 placeholder="Type Superhero's Name (example : superman)" aria-label="Search">
-		  	 <!-- <ul class="position-absolute bg-white text-dark text-start" id="search-result-container"> -->
+		  	 <ul class="position-absolute bg text-dark text-start" id="search-result-container">
 		  			<!-- Added dynamically -->
 		  	 </ul>
 		</form>
@@ -53,5 +52,7 @@
 	<h4 class="text-center my-4 text-primary">Search for more...</h4>
 	
 	<script type="text/javascript" src="assets/index.js"></script>
+</div>
+
 </body>
 </html>
